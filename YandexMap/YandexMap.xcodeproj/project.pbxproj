@@ -8,10 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		6E0356055C23ACF7B7A9108A /* Pods_YandexMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A969472EDAF9E1DE0BC75556 /* Pods_YandexMap.framework */; };
+		F730C3B529ACB68900EB3DD9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3B429ACB68900EB3DD9 /* SearchViewController.swift */; };
+		F730C3B829ACB6EC00EB3DD9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F730C3B729ACB6EC00EB3DD9 /* SnapKit */; };
+		F730C3BC29ACB71F00EB3DD9 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3BB29ACB71F00EB3DD9 /* OverlayView.swift */; };
+		F730C3BE29ACB73500EB3DD9 /* AddLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3BD29ACB73500EB3DD9 /* AddLocationController.swift */; };
+		F730C3C129ACB75B00EB3DD9 /* AddLocationPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3C029ACB75B00EB3DD9 /* AddLocationPresentationController.swift */; };
+		F730C3C329ACB7BC00EB3DD9 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3C229ACB7BC00EB3DD9 /* PresentationController.swift */; };
+		F730C3C629ACBA3300EB3DD9 /* AddAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3C529ACBA3300EB3DD9 /* AddAddressView.swift */; };
+		F730C3C829ACBA7F00EB3DD9 /* CustomTextFild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3C729ACBA7F00EB3DD9 /* CustomTextFild.swift */; };
+		F730C3CA29ACBAA000EB3DD9 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3C929ACBAA000EB3DD9 /* AppColor.swift */; };
+		F730C3CC29ACBAD200EB3DD9 /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3CB29ACBAD100EB3DD9 /* SaveButton.swift */; };
+		F730C3CE29ACBAE200EB3DD9 /* CancelButon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3CD29ACBAE200EB3DD9 /* CancelButon.swift */; };
+		F730C3D029ACBB5800EB3DD9 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3CF29ACBB5800EB3DD9 /* CustomLabel.swift */; };
+		F730C3D229ACBBAD00EB3DD9 /* UITextField + leftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3D129ACBBAD00EB3DD9 /* UITextField + leftView.swift */; };
+		F730C3D429ACBBD600EB3DD9 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730C3D329ACBBD600EB3DD9 /* AppFont.swift */; };
 		F7BB6EB92989496200C1D9D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB6EB82989496200C1D9D8 /* AppDelegate.swift */; };
 		F7BB6EBB2989496200C1D9D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB6EBA2989496200C1D9D8 /* SceneDelegate.swift */; };
-		F7BB6EBD2989496200C1D9D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB6EBC2989496200C1D9D8 /* ViewController.swift */; };
-		F7BB6EC02989496200C1D9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BB6EBE2989496200C1D9D8 /* Main.storyboard */; };
+		F7BB6EBD2989496200C1D9D8 /* SearchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB6EBC2989496200C1D9D8 /* SearchDelegate.swift */; };
 		F7BB6EC22989496300C1D9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BB6EC12989496300C1D9D8 /* Assets.xcassets */; };
 		F7BB6EC52989496300C1D9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BB6EC32989496300C1D9D8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,11 +33,23 @@
 		76EF6D0776D4B448CC4D1D26 /* Pods-YandexMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMap.release.xcconfig"; path = "Target Support Files/Pods-YandexMap/Pods-YandexMap.release.xcconfig"; sourceTree = "<group>"; };
 		8049E8004E6931580EE1FCFA /* Pods-YandexMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMap.debug.xcconfig"; path = "Target Support Files/Pods-YandexMap/Pods-YandexMap.debug.xcconfig"; sourceTree = "<group>"; };
 		A969472EDAF9E1DE0BC75556 /* Pods_YandexMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F730C3B429ACB68900EB3DD9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F730C3BB29ACB71F00EB3DD9 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		F730C3BD29ACB73500EB3DD9 /* AddLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationController.swift; sourceTree = "<group>"; };
+		F730C3C029ACB75B00EB3DD9 /* AddLocationPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationPresentationController.swift; sourceTree = "<group>"; };
+		F730C3C229ACB7BC00EB3DD9 /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		F730C3C529ACBA3300EB3DD9 /* AddAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressView.swift; sourceTree = "<group>"; };
+		F730C3C729ACBA7F00EB3DD9 /* CustomTextFild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFild.swift; sourceTree = "<group>"; };
+		F730C3C929ACBAA000EB3DD9 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		F730C3CB29ACBAD100EB3DD9 /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
+		F730C3CD29ACBAE200EB3DD9 /* CancelButon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButon.swift; sourceTree = "<group>"; };
+		F730C3CF29ACBB5800EB3DD9 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		F730C3D129ACBBAD00EB3DD9 /* UITextField + leftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + leftView.swift"; sourceTree = "<group>"; };
+		F730C3D329ACBBD600EB3DD9 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		F7BB6EB52989496200C1D9D8 /* YandexMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BB6EB82989496200C1D9D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7BB6EBA2989496200C1D9D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7BB6EBC2989496200C1D9D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7BB6EBF2989496200C1D9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7BB6EBC2989496200C1D9D8 /* SearchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDelegate.swift; sourceTree = "<group>"; };
 		F7BB6EC12989496300C1D9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7BB6EC42989496300C1D9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7BB6EC62989496300C1D9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0356055C23ACF7B7A9108A /* Pods_YandexMap.framework in Frameworks */,
+				F730C3B829ACB6EC00EB3DD9 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +74,6 @@
 				8049E8004E6931580EE1FCFA /* Pods-YandexMap.debug.xcconfig */,
 				76EF6D0776D4B448CC4D1D26 /* Pods-YandexMap.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +83,55 @@
 				A969472EDAF9E1DE0BC75556 /* Pods_YandexMap.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F730C3B329ACB66900EB3DD9 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F7BB6EBC2989496200C1D9D8 /* SearchDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F730C3BF29ACB74600EB3DD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F730C3BD29ACB73500EB3DD9 /* AddLocationController.swift */,
+				F730C3B429ACB68900EB3DD9 /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F730C3C429ACB7CB00EB3DD9 /* PresentationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F730C3C029ACB75B00EB3DD9 /* AddLocationPresentationController.swift */,
+				F730C3C229ACB7BC00EB3DD9 /* PresentationController.swift */,
+			);
+			path = PresentationControllers;
+			sourceTree = "<group>";
+		};
+		F730C3D529ACBDF200EB3DD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F730C3BB29ACB71F00EB3DD9 /* OverlayView.swift */,
+				F730C3C529ACBA3300EB3DD9 /* AddAddressView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F730C3D629ACBDFF00EB3DD9 /* Custom + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F730C3D329ACBBD600EB3DD9 /* AppFont.swift */,
+				F730C3CF29ACBB5800EB3DD9 /* CustomLabel.swift */,
+				F730C3CB29ACBAD100EB3DD9 /* SaveButton.swift */,
+				F730C3CD29ACBAE200EB3DD9 /* CancelButon.swift */,
+				F730C3C729ACBA7F00EB3DD9 /* CustomTextFild.swift */,
+				F730C3D129ACBBAD00EB3DD9 /* UITextField + leftView.swift */,
+				F730C3C929ACBAA000EB3DD9 /* AppColor.swift */,
+			);
+			path = "Custom + Extension";
 			sourceTree = "<group>";
 		};
 		F7BB6EAC2989496200C1D9D8 = {
@@ -83,8 +157,11 @@
 			children = (
 				F7BB6EB82989496200C1D9D8 /* AppDelegate.swift */,
 				F7BB6EBA2989496200C1D9D8 /* SceneDelegate.swift */,
-				F7BB6EBC2989496200C1D9D8 /* ViewController.swift */,
-				F7BB6EBE2989496200C1D9D8 /* Main.storyboard */,
+				F730C3B329ACB66900EB3DD9 /* Protocol */,
+				F730C3D529ACBDF200EB3DD9 /* Views */,
+				F730C3C429ACB7CB00EB3DD9 /* PresentationControllers */,
+				F730C3BF29ACB74600EB3DD9 /* Controllers */,
+				F730C3D629ACBDFF00EB3DD9 /* Custom + Extension */,
 				F7BB6EC12989496300C1D9D8 /* Assets.xcassets */,
 				F7BB6EC32989496300C1D9D8 /* LaunchScreen.storyboard */,
 				F7BB6EC62989496300C1D9D8 /* Info.plist */,
@@ -110,6 +187,9 @@
 			dependencies = (
 			);
 			name = YandexMap;
+			packageProductDependencies = (
+				F730C3B729ACB6EC00EB3DD9 /* SnapKit */,
+			);
 			productName = YandexMap;
 			productReference = F7BB6EB52989496200C1D9D8 /* YandexMap.app */;
 			productType = "com.apple.product-type.application";
@@ -138,6 +218,9 @@
 				Base,
 			);
 			mainGroup = F7BB6EAC2989496200C1D9D8;
+			packageReferences = (
+				F730C3B629ACB6EC00EB3DD9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F7BB6EB62989496200C1D9D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -154,7 +237,6 @@
 			files = (
 				F7BB6EC52989496300C1D9D8 /* LaunchScreen.storyboard in Resources */,
 				F7BB6EC22989496300C1D9D8 /* Assets.xcassets in Resources */,
-				F7BB6EC02989496200C1D9D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,23 +289,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7BB6EBD2989496200C1D9D8 /* ViewController.swift in Sources */,
+				F730C3C829ACBA7F00EB3DD9 /* CustomTextFild.swift in Sources */,
+				F7BB6EBD2989496200C1D9D8 /* SearchDelegate.swift in Sources */,
+				F730C3CC29ACBAD200EB3DD9 /* SaveButton.swift in Sources */,
+				F730C3BE29ACB73500EB3DD9 /* AddLocationController.swift in Sources */,
+				F730C3D029ACBB5800EB3DD9 /* CustomLabel.swift in Sources */,
+				F730C3C329ACB7BC00EB3DD9 /* PresentationController.swift in Sources */,
+				F730C3CE29ACBAE200EB3DD9 /* CancelButon.swift in Sources */,
+				F730C3CA29ACBAA000EB3DD9 /* AppColor.swift in Sources */,
 				F7BB6EB92989496200C1D9D8 /* AppDelegate.swift in Sources */,
+				F730C3C629ACBA3300EB3DD9 /* AddAddressView.swift in Sources */,
+				F730C3C129ACB75B00EB3DD9 /* AddLocationPresentationController.swift in Sources */,
+				F730C3BC29ACB71F00EB3DD9 /* OverlayView.swift in Sources */,
+				F730C3D429ACBBD600EB3DD9 /* AppFont.swift in Sources */,
+				F730C3B529ACB68900EB3DD9 /* SearchViewController.swift in Sources */,
 				F7BB6EBB2989496200C1D9D8 /* SceneDelegate.swift in Sources */,
+				F730C3D229ACBBAD00EB3DD9 /* UITextField + leftView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7BB6EBE2989496200C1D9D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7BB6EBF2989496200C1D9D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7BB6EC32989496300C1D9D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,7 +449,6 @@
 				INFOPLIST_FILE = YandexMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -391,7 +477,6 @@
 				INFOPLIST_FILE = YandexMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -429,6 +514,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F730C3B629ACB6EC00EB3DD9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F730C3B729ACB6EC00EB3DD9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F730C3B629ACB6EC00EB3DD9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7BB6EAD2989496200C1D9D8 /* Project object */;
 }
